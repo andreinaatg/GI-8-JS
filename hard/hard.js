@@ -24,12 +24,14 @@ function createPatient(name, ssn) {
 }
 
 // Create a patient object
-const patient2 = createPatient("John", "123-45-6789");
+const patient2 = createPatient("Nina", "884-45-3039");//its fake no worries
 
 
 
-// Output: John
+// Output: Nina
 console.log(patient2.getName());
 
 // Output: Undefined (as SSN property is not accessible directly)
 console.log(patient2.getSSN());
+console.log(patient2.name);
+console.log(patient2.ssn);
