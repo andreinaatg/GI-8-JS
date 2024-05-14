@@ -68,15 +68,15 @@ class Person {
   // Testing
   const john = new Programmer("Nikki", "Front-end Developer", 19, ["JavaScript", "HTML", "CSS"]);
 
-  john.fetchJob(); // John is a Front-end Developer
-  john.exercise(); // Running is fun! - said no one ever
+  john.fetchJob();
+  john.exercise(); 
   john.completeTask();
-  john.offerNewTask(); // John would love to take on a new responsibility.
+  john.offerNewTask(); 
 
   const alice = new Programmer("Tommy", "Back-end Developer", 25, ["Java", "Python"]);
 
-  alice.fetchJob(); // Alice is a Back-end Developer
+  alice.fetchJob(); 
   alice.learnLanguage("React");
-  alice.listLanguages(); // Alice knows Java, Python, Ruby
+  alice.listLanguages(); 
   alice.acceptNewTask();
-  alice.offerNewTask(); // Alice can't accept any new tasks right now.
+  alice.offerNewTask(); 
